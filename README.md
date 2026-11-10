@@ -10,4 +10,5 @@ This project implements a convolutional neural network using PyTorch. There will
 # How to run
 
 # References
+- Slides: https://docs.google.com/presentation/d/1wnJMYiNNhWZ4wx8B--sQabTAN9TiTCJwYPzcYqq-NJE/edit?usp=sharing
 
