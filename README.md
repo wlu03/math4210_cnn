@@ -26,11 +26,11 @@ We will use the same training, validation, and test set for every method that is
 
 # Result
 
-# How to run
+# Get started
 
 Install python3 and then run the following commands in the root.
 
-```python
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 
@@ -40,9 +40,14 @@ python -m pip install --upgrade pip
 
 # downloading required packages for this project
 python -m pip install -r requirements.txt
+
+# download all four datasets into data/
+python data-loader.py
 ```
 
 If requirements is already installed, just activate .venv when starting a new terminal
+
+The loader saves datasets in the project's `data/` folder and reuses existing downloads. This folder is excluded from Git, so run `python data-loader.py` after setting up a new clone.
 
 # References
 - Slides: https://docs.google.com/presentation/d/1wnJMYiNNhWZ4wx8B--sQabTAN9TiTCJwYPzcYqq-NJE/edit?usp=sharing
